@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCookBook", "CSharpCookBook\CSharpCookBook.csproj", "{2EA5956A-5947-4980-A38F-14FD75E21A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStreaming", "DataStreaming\DataStreaming.csproj", "{CDE98820-F907-41EB-BBA3-7C6A4DE2E8BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA5956A-5947-4980-A38F-14FD75E21A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA5956A-5947-4980-A38F-14FD75E21A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA5956A-5947-4980-A38F-14FD75E21A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA5956A-5947-4980-A38F-14FD75E21A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE98820-F907-41EB-BBA3-7C6A4DE2E8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE98820-F907-41EB-BBA3-7C6A4DE2E8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE98820-F907-41EB-BBA3-7C6A4DE2E8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE98820-F907-41EB-BBA3-7C6A4DE2E8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19C460B9-668B-46EE-813F-207B00987209}
+	EndGlobalSection
+EndGlobal

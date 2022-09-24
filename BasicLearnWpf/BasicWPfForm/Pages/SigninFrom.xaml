@@ -1,0 +1,22 @@
+﻿<Page x:Class="BasicWPfForm.Pages.SigninFrom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BasicWPfForm.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SigninFrom">
+
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+        <Label x:Name="Place_SignIn_First" Content="Place Enter your User name and Password" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Background="White" FontFamily="Tahoma" Height="35" Width="460" FontSize="20"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Height="35" Margin="155,164,0,0" VerticalAlignment="Top" Width="105" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="265,164,0,0" TextWrapping="Wrap" Text="User name or Email"  VerticalAlignment="Top" Width="365"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Height="35" Margin="155,164,0,0" VerticalAlignment="Top" Width="105" FontSize="14"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="35" Margin="155,217,0,0" VerticalAlignment="Top" Width="105" FontSize="14"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="50" Margin="265,286,0,0" VerticalAlignment="Top" Width="173" FontSize="20" Background="#FF2083B7" BorderBrush="#FF944242"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="265,217,0,0" VerticalAlignment="Top" Width="365" Height="36"/>
+        <Image HorizontalAlignment="Left" Height="42" Margin="20,45,0,0" VerticalAlignment="Top" Width="85" Source="/Pages/Screenshot_1.png"/>
+
+    </Grid>
+</Page>

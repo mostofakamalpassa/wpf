@@ -1,0 +1,15 @@
+D:\BasicC#\CSharpCookBook\DataStreaming\bin\Debug\net6.0\DataStreaming.exe
+D:\BasicC#\CSharpCookBook\DataStreaming\bin\Debug\net6.0\DataStreaming.deps.json
+D:\BasicC#\CSharpCookBook\DataStreaming\bin\Debug\net6.0\DataStreaming.runtimeconfig.json
+D:\BasicC#\CSharpCookBook\DataStreaming\bin\Debug\net6.0\DataStreaming.dll
+D:\BasicC#\CSharpCookBook\DataStreaming\bin\Debug\net6.0\DataStreaming.pdb
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.csproj.AssemblyReference.cache
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.GeneratedMSBuildEditorConfig.editorconfig
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.AssemblyInfoInputs.cache
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.AssemblyInfo.cs
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.csproj.CoreCompileInputs.cache
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.dll
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\refint\DataStreaming.dll
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.pdb
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\DataStreaming.genruntimeconfig.cache
+D:\BasicC#\CSharpCookBook\DataStreaming\obj\Debug\net6.0\ref\DataStreaming.dll
