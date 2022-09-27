@@ -28,8 +28,15 @@ namespace BasicWPfForm
         private void Window_Loaded(object sender, RoutedEventArgs e) 
         { 
             SigninFrom window = new SigninFrom();
-            window.ShowDialog(); 
-        
+            window.ShowDialog();
+
+
+
+        }
+
+        private void comboBox2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           // comboBox2 comboBox = new comboBox2();
         }
     }
 }

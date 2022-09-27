@@ -1,0 +1,13 @@
+﻿<Window x:Class="MultiWindow.AboutUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiWindow"
+        mc:Ignorable="d"
+        Title="AboutUs" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Hellow world" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="93, 80, 0, 0" FontSize="30"/>
+        <Button x:Name="button" Click="button_click" Content="Click me" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="200,190, 0, 0" FontSize="20" Padding="10" />
+    </Grid>
+</Window>

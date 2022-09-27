@@ -22,7 +22,7 @@
         <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="299,135,0,0" VerticalAlignment="Top" Width="225" Height="26" Password="XOKR"/>
         <Label Content="Password :" HorizontalAlignment="Left" Margin="213,132,0,0" VerticalAlignment="Top" Width="85" FontSize="16" RenderTransformOrigin="0.353,2.495"/>
 
-        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="51" Margin="304,174,0,0" VerticalAlignment="Top" Width="225">
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="41" Margin="304,174,0,0" VerticalAlignment="Top" Width="225">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="Here is RichTextBox control"/>
@@ -32,15 +32,27 @@
         <Label Content="Discription :" HorizontalAlignment="Left" Margin="184,184,0,0" VerticalAlignment="Top" Width="114" FontSize="16" RenderTransformOrigin="0.353,2.495"/>
 
         <CheckBox
-            Content="M.B.A" Height="16" HorizontalAlignment="Left" Margin="304,239,0,0" Name="checkBox1" VerticalAlignment="Top" Tag="0" IsChecked="True"/>
-        <CheckBox Content="B.A" Height="16" HorizontalAlignment="Left" Margin="363,239,0,0" Name="checkBox2" VerticalAlignment="Top" Tag="1" />
+            Content="M.B.A" Height="16" HorizontalAlignment="Left" Margin="304,218,0,0" Name="checkBox1" VerticalAlignment="Top" Tag="0" IsChecked="True"/>
+        <CheckBox Content="B.A" Height="16" HorizontalAlignment="Left" Margin="363,218,0,0" Name="checkBox2" VerticalAlignment="Top" Tag="1" />
 
-        <Label Content="Gender" Height="28" HorizontalAlignment="Left" Margin="216,262,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Gender" Height="28" HorizontalAlignment="Left" Margin="216,241,0,0" Name="label2" VerticalAlignment="Top" />
         <RadioButton
-            Content="Male" Height="16" HorizontalAlignment="Left" Margin="304,270,0,0" Name="radioButton1" VerticalAlignment="Top" GroupName="Gender" IsChecked="True" />
-        <RadioButton Content="Female" Height="16" HorizontalAlignment="Left" Margin="360,270,0,0" Name="radioButton2" VerticalAlignment="Top" GroupName="Gender" />
-        <Label Content="Marital Status" Height="28" HorizontalAlignment="Left" Margin="216,293,0,0" Name="label3" VerticalAlignment="Top" />
-        <RadioButton Content="Single" Height="16" HorizontalAlignment="Left" Margin="303,299,0,0" Name="radioButton3" VerticalAlignment="Top" GroupName="MaritalStatus" />
-        <RadioButton Content="Married" Height="16" HorizontalAlignment="Left" Margin="363,295,0,0" Name="radioButton4" VerticalAlignment="Top" GroupName=" MaritalStatus" IsChecked="True" />
+            Content="Male" Height="16" HorizontalAlignment="Left" Margin="304,249,0,0" Name="radioButton1" VerticalAlignment="Top" GroupName="Gender" IsChecked="True" />
+        <RadioButton Content="Female" Height="16" HorizontalAlignment="Left" Margin="360,249,0,0" Name="radioButton2" VerticalAlignment="Top" GroupName="Gender" />
+        <Label Content="Marital Status" Height="28" HorizontalAlignment="Left" Margin="216,274,0,0" Name="label3" VerticalAlignment="Top" />
+        <RadioButton Content="Single" Height="16" HorizontalAlignment="Left" Margin="303,278,0,0" Name="radioButton3" VerticalAlignment="Top" GroupName="MaritalStatus" />
+        <RadioButton Content="Married" Height="16" HorizontalAlignment="Left" Margin="363,274,0,0" Name="radioButton4" VerticalAlignment="Top" GroupName=" MaritalStatus" IsChecked="True" />
+        <ComboBox Name="comboBox1" Height="23" Width="120" HorizontalAlignment="Left" Margin="310,308,0,0" VerticalAlignment="Top" >
+            <ComboBoxItem Content="Accounting" IsSelected="False" />
+            <ComboBoxItem Content="Computer Science" Background="Blue" Foreground="Red" />
+            <ComboBoxItem Content="Marketing" IsSelected="True" />
+        </ComboBox>
+        <Label Content="Department" Height="28" HorizontalAlignment="Left" Margin="214,306,0,0" x:Name="label3_Copy" VerticalAlignment="Top" />
+
+        <ComboBox Name="comboBox2"  Height="23" Width="120" HorizontalAlignment="Left" Margin="310,308,0,0" VerticalAlignment="Top" SelectionChanged="comboBox2_SelectionChanged" >
+        </ComboBox>
+        <Popup Name="myPopup" PlacementTarget="{Binding ElementName=image1}">
+            <TextBlock Name="myPopupText" Background="LightBlue" Foreground="Blue"> Popups can be of any shape but are always contained within a rectangular bounding box.</TextBlock>
+        </Popup>
     </Grid>
 </Window>
