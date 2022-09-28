@@ -23,7 +23,16 @@ namespace MultiWindow
         public MainWindow()
         {
             InitializeComponent();
+
+            TextBox textBox = new TextBox();
+            textBox.Text = "Hello kamal ";
+            textBox.Margin = new Thickness(50,30,0,0);
+            textBox.HorizontalAlignment = HorizontalAlignment.Left;
+            textBox.VerticalAlignment = VerticalAlignment.Top;
+            textBox.Foreground = Brushes.Red;
+            textBox.Background = new SolidColorBrush(Colors.Black);
         }
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             SignIn window = new SignIn();

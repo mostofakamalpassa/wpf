@@ -62,6 +62,8 @@ namespace MultiWindow {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.8.0")]
         public static void Main() {
+            SplashScreen splashScreen = new SplashScreen("splashscreen.png");
+            splashScreen.Show(true);
             MultiWindow.App app = new MultiWindow.App();
             app.InitializeComponent();
             app.Run();
