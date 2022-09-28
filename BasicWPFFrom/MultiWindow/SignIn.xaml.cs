@@ -23,5 +23,19 @@ namespace MultiWindow
         {
             InitializeComponent();
         }
+
+        private void buttonCancel_click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to exit?", "XOKR", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes) == MessageBoxResult.Yes)
+            {
+                //do something before exit
+                Application.Current.Shutdown();
+            }
+
+            else
+            { //do something before close
+              //this.Close (); }
+            }
+        }
     }
 }

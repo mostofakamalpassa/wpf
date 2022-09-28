@@ -24,11 +24,21 @@ namespace MultiWindow
         {
             InitializeComponent();
         }
-
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            SignIn window = new SignIn();
+            window.ShowDialog();
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AboutUs window = new AboutUs();
             window.Show();
         }
+        private void ButtonSingUp_Click(object sender, RoutedEventArgs e)
+        {
+            SignIn window = new SignIn();
+            window.ShowDialog();
+        }
+
     }
 }
