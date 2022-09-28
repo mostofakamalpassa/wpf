@@ -8,17 +8,17 @@
         Title="SignIn" Height="400" Width="600">
     <Grid Margin="0,0,0,-6">
         <Label Content="Plase enter your user name and password" x:Name="lable"
-                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,128,0,0"/>
-        <Label Content="Email : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,158,0,0" />
-        <TextBox Text="Enter your Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,160,0,0" Width="300"/>
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,16,0,0"/>
+        <Label Content="Email : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="131,46,0,0" />
+        <TextBox Text="Enter your Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,48,0,0" Width="300"/>
 
-        <Label Content="Password : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,198,0,0" />
-        <PasswordBox   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,202,0,0" Width="300"/>
+        <Label Content="Password : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,70,0,0" />
+        <PasswordBox   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,74,0,0" Width="300"/>
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="LogIn" Margin="182,228,0,0" Width="80" FontSize="20" FontWeight="Bold" Foreground="Green" Background="OldLace" BorderBrush="CadetBlue" BorderThickness="1" />
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="cancel" Margin="290,228,0,0" Width="80" FontSize="20" FontWeight="Bold" Foreground="Red" Background="#FFB700FF" BorderBrush="Black" BorderThickness="1" Click="buttonCancel_click"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="LogIn" Margin="182,161,0,0" Width="80" FontSize="20" FontWeight="Bold" Foreground="Green" Background="OldLace" BorderBrush="CadetBlue" BorderThickness="1" />
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="cancel" Margin="292,161,0,0" Width="80" FontSize="20" FontWeight="Bold" Foreground="Red" Background="#FFB700FF" BorderBrush="Black" BorderThickness="1" Click="buttonCancel_click"/>
 
-        <TextBox x:Name="Color" Text="Gradient Color" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,280,0,0">
+        <TextBox x:Name="Color" Text="Gradient Color" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,197,0,0" Width="310">
             <TextBox.Background>
                 <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                     <GradientStop Color="Black" Offset="0"/>
@@ -27,6 +27,34 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
+
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="51" Margin="180,101,0,0" VerticalAlignment="Top" Width="310">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Here is RichTextBox control"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="Discription :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="106,99,0,0" />
+        <CheckBox Margin="180,223,338,130">
+            <CheckBox.Content>MBA</CheckBox.Content>
+        </CheckBox>
+        <CheckBox Margin="408,217,110,136" Content="MBA"/>
+        <CheckBox Margin="408,254,110,99" Content="MBA"/>
+        <CheckBox Margin="180,252,338,101" Content="MBA"/>
+
+        <RadioButton Content="Female" Height="16" HorizontalAlignment="Left" Margin="182,277,0,0" Name="radioButton2" VerticalAlignment="Top" GroupName="Gender" />
+        <RadioButton Content="Male" Height="16" HorizontalAlignment="Left" Margin="408,279,0,0" x:Name="radioButton2_Copy" VerticalAlignment="Top" GroupName="Gender" />
+        <Label Content="Marital Status :" Height="28" HorizontalAlignment="Left" Margin="79,294,0,0" Name="label3" VerticalAlignment="Top" />
+        <RadioButton Content="Single" Height="16" HorizontalAlignment="Left" Margin="182,301,0,0" Name="radioButton3" VerticalAlignment="Top" GroupName="MaritalStatus" />
+        <RadioButton Content="Marid" Height="16" HorizontalAlignment="Left" Margin="408,305,0,0" x:Name="radioButton3_Copy" VerticalAlignment="Top" GroupName="MaritalStatus" />
+
+        <ComboBox Name="comboBox1" Height="23" Width="120" HorizontalAlignment="Left" Margin="185,322,0,0" VerticalAlignment="Top" >
+            <ComboBoxItem Content="Accounting" IsSelected="False" />
+            <ComboBoxItem Content="Computer Science" Background="Blue" Foreground="Red" />
+            <ComboBoxItem Content="Marketing" IsSelected="True" />
+        </ComboBox>
+        <Label Content="Department :" Height="28" HorizontalAlignment="Left" Margin="79,322,0,0" x:Name="label3_Copy" VerticalAlignment="Top" />
 
     </Grid>
 </Window>
